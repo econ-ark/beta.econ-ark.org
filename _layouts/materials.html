@@ -1,0 +1,152 @@
+---
+layout: default
+---
+
+{{ content }}
+
+				<p class="visuallyhidden">The following list of links filter and update content in the table below.</p>
+
+				<ul class="tabs-toggles">
+					<li><a id="allMaterial" class="active">All</a></li>
+					<li><a id="replicationsMaterial">Replications</a></li>
+					<li><a id="demonstrationsMaterial">Demonstrations</a></li>
+					<li><a id="presentationsMaterial">Presentations</a></li>
+					<li><a id="instructionalMaterial">Instructional</a></li>
+				</ul>
+
+				<table summary="Table of Econ-ARK materials" class="materials" id="materialsTable">
+					<thead>
+						<tr>
+							<th>Title</th>
+							<th>Author(s)</th>
+							<th>Published</th>
+							<th>Tags</th>
+							<th>Action</th>
+						</tr>
+					</thead>
+{% for replication in site.replications %}
+					<tbody class="replicationsMaterial">
+						<tr>
+							<td class="title">{{ replication.name }}</td>
+							<td class="authors">
+{% for author in replication.authors %}
+								<span>{{ author }}</span>
+{% endfor %}
+							</td>
+							<td class="published">{{ replication.published }}</td>
+							<td class="tags">
+								<ul>
+{% for tag in replication.tags %}
+									<li>{{ tag }}</li>
+{% endfor %}
+								</ul>
+							</td>
+							<td rowspan="2" class="actions">
+								<ul>
+									<li><a href="{{ replication.download_url }}">Download</a></li>
+									<li><a href="{{ replication.launch_url }}">Launch</a></td></li>
+								</ul>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="4" class="summary">
+								{{ replication.content }}
+							</td>
+						</tr>
+					</tbody>
+{% endfor %}
+{% for demonstration in site.demonstrations %}
+					<tbody class="demonstrationsMaterial">
+						<tr>
+							<td class="title">{{ demonstration.name }}</td>
+							<td class="authors">
+{% for author in demonstration.authors %}
+								<span>{{ author }}</span>
+{% endfor %}
+							</td>
+							<td class="published">{{ demonstration.published }}</td>
+							<td class="tags">
+								<ul>
+{% for tag in demonstration.tags %}
+									<li>{{ tag }}</li>
+{% endfor %}
+								</ul>
+							</td>
+							<td rowspan="2" class="actions">
+								<ul>
+									<li><a href="{{ demonstration.download_url }}">Download</a></li>
+									<li><a href="{{ demonstration.launch_url }}">Launch</a></td></li>
+								</ul>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="4" class="summary">
+								{{ demonstration.content }}
+							</td>
+						</tr>
+					</tbody>
+{% endfor %}
+{% for presentation in site.presentations %}
+					<tbody class="presentationsMaterial">
+						<tr>
+							<td class="title">{{ presentation.name }}</td>
+							<td class="authors">
+{% for author in presentation.authors %}
+								<span>{{ author }}</span>
+{% endfor %}
+							</td>
+							<td class="published">{{ presentation.published }}</td>
+							<td class="tags">
+								<ul>
+{% for tag in presentation.tags %}
+									<li>{{ tag }}</li>
+{% endfor %}
+								</ul>
+							</td>
+							<td rowspan="2" class="actions">
+								<ul>
+									<li><a href="{{ presentation.download_url }}">Download</a></li>
+									<li><a href="{{ presentation.launch_url }}">Launch</a></td></li>
+								</ul>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="4" class="summary">
+								{{ presentation.content }}
+							</td>
+						</tr>
+					</tbody>
+{% endfor %}
+{% for instruction in site.instructional %}
+					<tbody class="instructionalMaterial">
+						<tr>
+							<td class="title">{{ instruction.name }}</td>
+							<td class="authors">
+{% for author in instruction.authors %}
+								<span>{{ author }}</span>
+{% endfor %}
+							</td>
+							<td class="published">{{ instruction.published }}</td>
+							<td class="tags">
+								<ul>
+{% for tag in instruction.tags %}
+									<li>{{ tag }}</li>
+{% endfor %}
+								</ul>
+							</td>
+							<td rowspan="2" class="actions">
+								<ul>
+									<li><a href="{{ instruction.download_url }}">Download</a></li>
+									<li><a href="{{ instruction.launch_url }}">Launch</a></td></li>
+								</ul>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="4" class="summary">
+								{{ instruction.content }}
+							</td>
+						</tr>
+					</tbody>
+{% endfor %}
+				</table>
+
