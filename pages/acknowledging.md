@@ -29,7 +29,7 @@ In Publications
 
 If you use Econ-ARK for work/research presented in a publication we ask that you please cite Econ-ARK papers:
 
-    <pre><code>@InProceedings{carroll_et_al-proc-scipy-2018,
+    @InProceedings{carroll_et_al-proc-scipy-2018,
                       author    = { {C}hristopher {D}. {C}arroll and {A}lexander {M}. {K}aufman and {J}acqueline {L}. {K}azil and {N}athan {M}. {P}almer and {M}atthew {N}. {W}hite },
                       title     = { {T}he {E}con-{A}{R}{K} and {H}{A}{R}{K}: {O}pen {S}ource {T}ools for {C}omputational {E}conomics },
                       booktitle = { {P}roceedings of the 17th {P}ython in {S}cience {C}onference },
@@ -38,7 +38,6 @@ If you use Econ-ARK for work/research presented in a publication we ask that you
                       editor    = { {F}atih {A}kici and {D}avid {L}ippa and {D}illon {N}iederhut and {M} {P}acer },
                       doi       = { 10.25080/Majora-4af1f417-004 }
                     }
-     </code></pre>
 
 ------------------------------------------------------------------------
 
@@ -47,4 +46,4 @@ In Presentations
 
 If you are giving a presentation or talk and would like to acknowledge Econ-ARK, we suggest using this logo:
 
-![](/assets/img/econ-ark-logo-small.png)
+![](assets/img/econ-ark-logo-small.png)
