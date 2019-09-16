@@ -13,3 +13,7 @@ The Econ-ARK project provides open-source toolkits for researchers trying to und
 Econ-Ark is headed by [Christopher D. Carroll](http://www.econ2.jhu.edu/people/ccarroll/), Professor of Economics at the Johns Hopkins University. The project is a grant recipient from the [Sloan foundation](https://sloan.org/), and is under the umbrella of projects with fiscal sponsorship by [NumFocus](https://www.numfocus.org/).
 
 Find out more about Econ-ARK project development on [GitHub](https://github.com/econ-ark).
+
+Please remember to [acknowledge and cite](/acknowledging/) the use of Econ-ARK.</p>
+
+We are very grateful for any [donations](https://numfocus.salsalabs.org/donate-to-econ-ark/) towards the Econ-ARK project.
