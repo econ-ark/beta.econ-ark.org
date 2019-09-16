@@ -7,8 +7,8 @@ description: "Structural modeling economic choices of heterogeneous agents"
 timezone: America/Los_Angeles
 google_analytics: UA-118130489-1
 
-baseurl: /econark-jekyll-theme/
-#baseurl: 
+#baseurl: /econark-jekyll-theme/
+baseurl: 
 
 sass:
    sass_dir: /assets/sass
