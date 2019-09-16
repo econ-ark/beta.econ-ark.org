@@ -7,4 +7,8 @@ order: 4
 ---
 # Materials
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Econ-ARK materials are categorized under the following types:
+- Demonstrations: Jupyter Notebooks demonstrating usage of HARK
+- Replications: Jupyter Notebooks implementing existing papers in HARK
+- Instructional tools: Notebooks constructed for teaching purposes, including problem sets
+- Presentations: Notebooks and non-notebook content from presentations given related to HARK/Econ-ARK
