@@ -14,6 +14,6 @@ Econ-Ark is headed by [Christopher D. Carroll](http://www.econ2.jhu.edu/people/c
 
 Find out more about Econ-ARK project development on [GitHub](https://github.com/econ-ark).
 
-Please remember to [acknowledge and cite](acknowledging.md) the use of Econ-ARK.
+Please remember to [acknowledge and cite](acknowledging/) the use of Econ-ARK.
 
 We are very grateful for any [donations](https://numfocus.salsalabs.org/donate-to-econ-ark/) towards the Econ-ARK project.
