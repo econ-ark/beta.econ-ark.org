@@ -21,7 +21,12 @@ You can use the following line of HTML:
 Or Markdown:
 
     [![econ-ark.org](https://img.shields.io/badge/Powered%20by-Econ--ARK-3e8acc.svg)](https://econ-ark.org/)
+    
 
+Or Latex:
+
+    \href{https://raster.shields.io/badge/Powered%20by-Econ--ARK-3e8acc.png}{Econ-ARK badge}
+    
 ------------------------------------------------------------------------
 
 In Publications
