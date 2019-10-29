@@ -3,7 +3,7 @@ title: Team
 permalink: team
 layout: team
 menu_item: true
-order: 5
+order: 6
 ---
 # Team
 

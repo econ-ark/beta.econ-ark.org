@@ -1,12 +1,13 @@
 ---
-name: Instructional Example
+name: Presentation Example
 published: 2019/08/31
 authors: Christopher Carroll
+type: presentation
 tags:
- - Tag name
+ - Presentation
 download_url: 
-launch_url:
-repository: 
+launch_url: https://mybinder.org/v2/gh/econ-ark/DemARK/master?filepath=notebooks/Gentle-Intro-To-HARK.ipynb
+repository: https://github.com/econ-ark
 ---
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,

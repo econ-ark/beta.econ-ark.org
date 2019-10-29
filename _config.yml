@@ -22,9 +22,6 @@ exclude:
   - vendor/bundle
 
 collections:
-  demonstrations:
-  instructional:
-  presentations:
-  replications:
+  materials:
   team:
 

@@ -59,17 +59,18 @@ a:hover {
 
 .button {
     display: inline-block;
-    padding: .8rem 1.5rem;
+    padding: .6rem 1.2rem;
     border-radius: 4px;
     line-height: 1.6rem;
     text-decoration: none;
     font-weight: 400;
     font-size: 1.1rem;
-    color: #FFF;
-    background: $ark-blue;
+    border:1px solid $ark-blue;
+    color: $ark-blue;
+    background: #fff;
     transition: all 0.2s linear;
     &:hover {
-        background: $ark-grey;
+        background: $ark-blue;
         color:#fff;
         text-decoration: none;
     }
@@ -108,15 +109,16 @@ a:hover {
             text-align: center;
             li {
                 display: inline-block;
-                margin: 0 0.50rem;
+                margin: 0 0.30rem;
                 a {
                     display: inline-block;
-                    padding: 0.8rem 1.5rem;
+                    padding: 0.6rem 1.2rem;
                     font-weight: 400;
                     text-transform: uppercase;
                     letter-spacing: 0.20rem;
                     text-decoration: none;
-                    font-size: 0.90rem;
+                    font-size: 0.80rem;
+                    line-height: 1;
                     outline: 0;
                     color: #fff;
                     border:1px solid transparent;
@@ -166,12 +168,13 @@ a:hover {
             margin: 0 0.50rem;
             a {
                 display: inline-block;
-                padding: 0.8rem 1.5rem;
+                padding: 0.6rem 1.2rem;
                 font-weight: 400;
                 text-transform: uppercase;
                 letter-spacing: 0.20rem;
                 text-decoration: none;
                 font-size: 0.90rem;
+                line-height: 1;
                 outline: 0;
                 color: #444;
                 border:1px solid transparent;
@@ -229,7 +232,8 @@ a:hover {
                 display: block;
                 color: #444;
                 svg {
-                    color: $ark-blue;
+                    //color: $ark-blue;
+                    color: rgba(0,0,0,0.6);
                     font-size: 2.8rem;
                     margin:0 0 1rem 0;
                 }
@@ -261,9 +265,9 @@ a:hover {
     font-family: $font-alt;
     font-size: 0.9rem;
     margin:6rem 0 0 0;
-    background: #000;
+    background: #222;
     border-top: 1px solid #efefef;
-    padding:3rem 0;
+    padding:2rem 0;
     color: rgba(255, 255, 255, 0.4);
     text-align: center;
     a {
@@ -286,8 +290,8 @@ a:hover {
     }
     .copy {
         border-top:1px solid rgba(255, 255, 255, 0.2);
-        padding:2rem 0 0 0;
-        margin:2rem 0 0 0;
+        padding:1rem 0 0 0;
+        margin:1rem 0 0 0;
     }
 }
 
@@ -369,7 +373,15 @@ a:hover {
     }
 }
 
+.display-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
 .tabs-toggles {
+    position: relative;
+    bottom: -1px;
     list-style: none;
     padding:0;
     margin:2rem 0 0  0;
@@ -381,7 +393,7 @@ a:hover {
             border: 1px solid $ark-blue;
             border-width: 1px 1px 0 1px;
             border-radius: 4px 4px 0 0;
-            padding:0.5rem 2rem;
+            padding:0.4rem 1.5rem;
             outline: none;
             cursor: pointer;
             &.active {
@@ -395,6 +407,41 @@ a:hover {
                 text-decoration: none;
             }
         }
+    }
+}
+
+.tag-filter {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin:0 0 0.5rem 0;
+    label {
+        display: inline-block;
+        margin: 0 0.5rem 0 0;
+        font-weight: bold;
+        color: $ark-blue;
+    }
+    .choices {
+        display: inline-block;
+        width:150px;    
+    }
+    .choices[data-type*=select-one] .choices__inner{
+        padding:0 7.5px;
+        min-height: auto;
+        box-sizing: border-box;
+        border-color: $ark-blue;
+    }
+    .choices__list--dropdown {
+        box-sizing: border-box;
+        .choices__item--selectable {
+            padding-right: inherit;
+        }
+    }
+    .choices__list--single .choices__item {
+        //width: 150px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 }
 

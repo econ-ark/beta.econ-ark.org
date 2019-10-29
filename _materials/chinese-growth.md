@@ -5,10 +5,12 @@ authors:
  - Christopher Carroll
  - Matthew N.White
  - Matthew Gerring
+type: demonstration
 tags:
  - Assignment
  - Notebook
-download_url: 
+ - Demonstration
+download_url: https://github.com/econ-ark
 launch_url:
 repository: 
 ---
