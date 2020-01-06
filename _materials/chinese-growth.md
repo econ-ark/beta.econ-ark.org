@@ -1,17 +1,19 @@
 ---
 name: Chinese Growth
-published: 2018/07/12
-authors:
- - Christopher Carroll
- - Matthew N.White
- - Matthew Gerring
+summary: 'Do Precautionary Motives Explain China's High Saving Rate?'
 type: demonstration
+is_notebook: true
+published:
+authors:
+  - Christopher Carroll
 tags:
- - Assignment
- - Notebook
- - Demonstration
-download_url: https://github.com/econ-ark
-launch_url:
-repository: 
+  - Notebook
+  - Demonstration
+location_url: https://github.com/econ-ark/DemARK/blob/master/notebooks/Chinese-Growth.ipynb
+github_user: econ-ark
+github_repository: DemARK
+github_branch: master
+github_path: notebooks/Chinese-Growth.ipynb
 ---
-China's high net saving rate (approximately 25%) is a puzzle for economists, particularly in light of a consistently high income growth rate.
+
+Do Precautionary Motives Explain China's High Saving Rate ?

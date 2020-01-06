@@ -1,20 +1,22 @@
 title: Econ-ARK
 url: https://econ-ark.org/
 author: Econ-ARK
-keywords: 
-description: "Structural modeling economic choices of heterogeneous agents"
+keywords:
+description: 'Structural modeling economic choices of heterogeneous agents'
+
+custom_launcher: true
 
 timezone: America/Los_Angeles
 google_analytics: UA-118130489-1
 
 #baseurl: /econark-jekyll-theme/
-baseurl: 
+baseurl:
 
 sass:
-   sass_dir: /assets/sass
-   style: :compressed
+  sass_dir: /assets/sass
+  style: :compressed
 
-repository: 
+repository:
 
 exclude:
   - Gemfile
@@ -23,5 +25,14 @@ exclude:
 
 collections:
   materials:
+    output: true
+    permalink: /materials/:name
   team:
 
+defaults:
+  - scope:
+      path: ''
+      type: 'materials'
+    values:
+      layout: material
+      published: ''
