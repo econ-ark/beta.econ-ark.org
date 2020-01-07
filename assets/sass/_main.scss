@@ -323,17 +323,17 @@ h4,
 h5 {
 }
 
-h1 {
-  font-size: 3rem;
-}
+// h1 {
+//   font-size: 3rem;
+// }
 
-h2 {
-  font-size: 2.4rem;
-}
+// h2 {
+//   font-size: 2.4rem;
+// }
 
-h3 {
-  font-size: 1.4rem;
-}
+// h3 {
+//   font-size: 1.4rem;
+// }
 
 pre {
   background: #f5f2f0;
@@ -537,6 +537,7 @@ a.action-button {
     display: flex;
     li {
       margin: 0 1rem;
+      max-width: 20%;
       a {
         display: block;
         color: #444;
@@ -548,7 +549,8 @@ a.action-button {
         }
         .desc {
           font-size: 0.9rem;
-          line-height: 1.8rem;
+          line-height: 1.5;
+          min-height: 4.5em;
         }
         .button {
         }
@@ -764,7 +766,7 @@ a.action-button {
   display: flex;
   list-style: none;
   padding: 0;
-  margin: 1rem 0;
+  margin: 2rem 0 2rem 0;
   li {
     margin: 0 2rem 0 0;
   }
