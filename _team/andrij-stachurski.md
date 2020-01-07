@@ -2,6 +2,8 @@
 name: Andrij Stachurski
 image: andrij-stachurski.jpg
 link: http://drdrij.com/
-role: "Web Developer"
+role: 'Web Developer'
+order:
 ---
-Andrij Stachurski is a Web Technology Consultant and a Front-end Web Developer/Designer who enjoys working remotely from different parts of the globe.
+
+Andrij Stachurski is a consultant and full-stack web developer who enjoys working remotely from different parts of the globe.

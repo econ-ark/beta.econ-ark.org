@@ -37,3 +37,7 @@ defaults:
     values:
       layout: material
       published: ''
+  - scope:
+      type: 'team'
+    values:
+      order: 99

@@ -1,6 +1,6 @@
 ---
 name: Chinese Growth
-summary: 'Do Precautionary Motives Explain China's High Saving Rate?'
+summary: "Do Precautionary Motives Explain China's High Saving Rate?"
 type: demonstration
 is_notebook: true
 published:
