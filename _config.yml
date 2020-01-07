@@ -6,10 +6,11 @@ description: 'Structural modeling economic choices of heterogeneous agents'
 
 custom_launcher: true
 
-timezone: America/Los_Angeles
+custom_launcher_domain: 'https://notebook.econ-ark.org/'
+
+timezone: America/New_York
 google_analytics: UA-118130489-1
 
-#baseurl: /econark-jekyll-theme/
 baseurl:
 
 sass:
