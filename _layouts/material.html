@@ -35,7 +35,8 @@ layout: default
     {% if site.custom_launcher %} 
 
         {% capture custom_launch_url
-        %}{{ site.custom_launcher_domain }}v2/gh/{{ page.github_user }}/{{ page.github_repository }}?filepath={{ page.github_path }}{% endcapture %}
+        %}{{ site.custom_launcher_domain }}v2/gh/{{ page.github_user }}/{{ page.github_repository }}/{{
+    page.github_branch }}?filepath={{ page.github_path }}{% endcapture %}
 
         <li>
             <a href="{{ custom_launch_url }}"><img src="https://img.shields.io/badge/launch-econ--ark-green?logo=jupyter&style=flat" alt="Launch Econ-ARK button"></a>
