@@ -506,10 +506,12 @@ a.action-button {
   color: rgba(255, 255, 255, 0.7);
   padding: 5rem 0;
   text-align: center;
+  line-height: 2;
   h2,
   .heading {
     color: #fff;
     margin: 0 0 3rem 0;
+    font-size: 2rem;
   }
   a {
     color: #fff;
@@ -524,6 +526,7 @@ a.action-button {
   h2,
   .heading {
     margin: 0;
+    font-size: 2rem;
   }
   .subheading {
     font-size: 1.6em;
@@ -535,22 +538,23 @@ a.action-button {
     padding: 0;
     margin: 0;
     display: flex;
+    justify-content: space-around;
     li {
       margin: 0 1rem;
-      max-width: 20%;
+      width: 20%;
       a {
         display: block;
         color: #444;
         svg {
-          //color: $ark-blue;
-          color: rgba(0, 0, 0, 0.6);
+          color: $ark-blue;
+          //color: rgba(0, 0, 0, 0.6);
           font-size: 2.8rem;
           margin: 0 0 1rem 0;
         }
         .desc {
           font-size: 0.9rem;
           line-height: 1.5;
-          min-height: 4.5em;
+          min-height: 3em;
         }
         .button {
         }
@@ -862,8 +866,14 @@ a.action-button {
   .home-actions ul {
     display: block;
     li {
+      width: auto;
       display: block;
       margin: 2rem 1rem;
+      a {
+        .desc {
+          min-height: auto;
+        }
+      }
     }
   }
   .display-controls {

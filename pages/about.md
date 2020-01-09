@@ -4,6 +4,7 @@ permalink: about
 menu_item: true
 order: 2
 ---
+
 # About
 
 The Econ-ARK project provides open-source toolkits for researchers trying to understand how economic and social outcomes result from the actions of heterogeneous individuals.
@@ -15,3 +16,7 @@ Econ-Ark is headed by <a href="http://www.econ2.jhu.edu/people/ccarroll/">Christ
 The project is a grant recipient from the <a href="https://sloan.org/">Sloan foundation</a>, and is under the umbrella of projects with fiscal sponsorship by <a href="https://www.numfocus.org/">NumFocus</a>.
 
 Find out more about Econ-ARK project development on <a href="https://github.com/econ-ark">GitHub</a>.
+
+Please remember to [acknowledge and cite](acknowledging) the use of Econ-ARK.
+
+We are very grateful for any [donations](https://numfocus.salsalabs.org/donate-to-econ-ark/) towards the Econ-ARK project.
