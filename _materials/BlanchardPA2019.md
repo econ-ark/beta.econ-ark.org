@@ -10,7 +10,7 @@ tags:
   - Replication
 location_url: https://github.com/econ-ark/REMARK/tree/master/REMARKs/BlanchardPA2019
 github_user: econ-ark
-github_repository: REMARKs
+github_repository: REMARK/REMARKs
 github_branch: master
 github_path: BlanchardPA2019
 ---
